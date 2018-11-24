@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 screw you back local hitesh, i modified this file first.... i have dibs
+=======
+screw you remote hitesh, and one other thing, stop messing with my instructions file
+>>>>>>> Stashed changes
