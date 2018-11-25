@@ -1,6 +1,6 @@
 node {
     stage('Checkout') {
-		checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '53b3fd49-cacc-4960-baee-2e73e5f7d4dd', url: 'git@github.com:hiteshks2000/Testing.git']]])
+		checkout([$class: 'GitSCM', branches: [[name: '*/newBranch']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '53b3fd49-cacc-4960-baee-2e73e5f7d4dd', url: 'git@github.com:hiteshks2000/Testing.git']]])
 
 }
         
